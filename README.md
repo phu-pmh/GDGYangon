@@ -34,7 +34,7 @@ Mac/Unix users can either use docker or install on their local machine.
 ## Install Tensorflow using Docker
 + Download and install Docker Toolbox for:
     + [Windows](https://github.com/docker/toolbox/releases/download/v1.12.2/DockerToolbox-1.12.2.exe)
-    + [MacOS](https://docs.docker.com/toolbox/toolbox_install_mac/)
+    + [MacOS](https://github.com/docker/toolbox/releases/download/v1.12.2/DockerToolbox-1.12.2.pkg)
 
 
 ### Windows Users
