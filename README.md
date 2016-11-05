@@ -45,8 +45,7 @@ Mac/Unix users can either use docker or install on their local machine.
     + You can now open the notebooks at "http://(ip-address-from-above):8888"
     + Open  **HelloWorld/HelloWorld.ipynb** file and run it to test your installation.
 ### For Unix and Mac users
-+ Run Docker app.
-+ Open terminal and type the following command.
++ open **Docker Quickstart Terminal**
 + Enter "docker-machine ls" and take note of IP address under URL column
     + If you don't see any machine, refer to [this getting started guide](https://docs.docker.com/machine/get-started/) for detailed instructions to set up virtualbox.
 + Enter "docker run -it -p 8888:8888 phumh/devfest"
