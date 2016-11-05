@@ -1,3 +1,4 @@
 model/
+.ipynb_checkpoints/
 .DS_Store
 ._*
