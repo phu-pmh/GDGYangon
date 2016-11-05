@@ -30,7 +30,7 @@ Tensorflow Setup Instructions
 **Tensorflow is not available on Windows, so windows users must use Docker.**  
 Mac/Unix users can either use docker or install on their local machine.
 
-----
+
 ## Install Tensorflow using Docker
 + Download and install Docker Toolbox for:
     + [Windows](https://github.com/docker/toolbox/releases/download/v1.12.2/DockerToolbox-1.12.2.exe)
@@ -51,15 +51,18 @@ Mac/Unix users can either use docker or install on their local machine.
     + If you don't see any machine, refer to [this getting started guide](https://docs.docker.com/machine/get-started/) for detailed instructions to set up virtualbox.
 + Enter "docker run -it -p 8888:8888 phumh/devfest"
     + You can now open the notebooks at "http://(ip-address-from-above):8888"
-    + Open  **HelloWorld/HelloWorld.ipynb** file and run it to test your installation.
+    + Open  **HelloWorld/HelloWorld.ipynb** file and run it to test your installation.  
+
 ---
-## Install on your machine 
+
+## Install on your local machine 
 + **Please follow the instructions on this [link](https://www.tensorflow.org/versions/master/get_started/os_setup.html#download-and-setup).**
 + After installing, 
     + Clone [this repository](https://github.com/phu-pmh/GDGYangon) and navigate to it
     + Use "pip install -r requirements.txt" to install additional python libraries
     + Open terminal and type "jupyter notebook". (This will open the Jupyter notebook in your local host, usually at **http://localhost:8888/**
     + Open  **HelloWorld/HelloWorld.ipynb** file and run it to test your installation.
+
 
 Reminder to Participants
 ---
