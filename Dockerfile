@@ -1,4 +1,4 @@
-FROM b.gcr.io/tensorflow/tensorflow:latest
+FROM gcr.io/tensorflow/tensorflow:latest
 MAINTAINER PMH <phumon91@gmail.com>
 RUN apt-get update && apt-get install -y ca-certificates git-core ssh
 
@@ -15,6 +15,8 @@ RUN pip install sklearn
 ADD MNIST/ /GDGYangon/MNIST/
 ADD Titanic/ /GDGYangon/Titanic/
 ADD HelloWorld /GDGYangon/HelloWorld
+
+RUN export PYTHONWARNINGS="ignore"
 
 WORKDIR /GDGYangon
 CMD ["/run_jupyter.sh"]
